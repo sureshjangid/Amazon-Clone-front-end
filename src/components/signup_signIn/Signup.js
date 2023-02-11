@@ -37,7 +37,7 @@ console.log(userRegister,'userRegisteruserRegisteruserRegister')
       name: name,
       email: email,
       password: password,
-      mobile: mobile,
+      mobile: mobile, 
     };
     dispatch(registerUser(userData))
   };
